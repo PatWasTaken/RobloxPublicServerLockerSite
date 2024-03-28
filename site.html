@@ -1,1 +1,14 @@
-
+<html>
+  <head>
+    <script>
+      window.onload=function(){
+        document.getElementById("clickhere").href=`roblox://${location.search.substring(1)}`
+        location.assign(`roblox://${location.search.substring(1)}`)
+      }
+    </script>
+  </head>
+  <body>
+    Discord doesn't let you launch URI schemes anymore so I have to do this instead.<br>
+    <a id="clickhere">if roblox didnt launch just click here instead</a>
+  </body>
+</html>
